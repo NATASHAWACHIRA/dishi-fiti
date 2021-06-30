@@ -54,12 +54,12 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("#beans-image").click(function(){
-    $("#beans-image").slideToggle(3000);
-    $("#beans").slideToggle(3000);
+  $("#mukimo-image").click(function(){
+    $("#mukimo-image").slideToggle(3000);
+    $("#mukimo").slideToggle(3000);
   });
-  $("#beans").click(function(){
-    $("#beans").slideToggle(3000);
-    $("#beans-image").slideToggle(3000);
+  $("#mukimo").click(function(){
+    $("#mukimo").slideToggle(3000);
+    $("#mukimo-image").slideToggle(3000);
   });
 });
