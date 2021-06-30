@@ -32,13 +32,13 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("#development-image").click(function(){
-    $("#development-image").slideToggle(3000);
-    $("#development").slideToggle(3000);
+  $("#fish-image").click(function(){
+    $("#fish-image").slideToggle(3000);
+    $("#fish").slideToggle(3000);
   });
-  $("#development").click(function(){
-    $("#development").slideToggle(3000);
-    $("#development-image").slideToggle(3000);
+  $("#fish").click(function(){
+    $("#fish").slideToggle(3000);
+    $("#fish-image").slideToggle(3000);
   });
 });
 
