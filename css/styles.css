@@ -492,3 +492,9 @@ nav ul li span:nth-child(3) {
 nav ul li span:nth-child(4) {
     --n: 4;
 }
+
+#product, #development, #design{
+  display: none;
+  font-family: 'Copse', serif;
+  font-size: 16px;
+}
