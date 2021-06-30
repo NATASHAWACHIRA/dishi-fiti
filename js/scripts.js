@@ -54,12 +54,12 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("#product-image").click(function(){
-    $("#product-image").slideToggle(3000);
-    $("#product").slideToggle(3000);
+  $("#mukimo-image").click(function(){
+    $("#mukimo-image").slideToggle(3000);
+    $("#mukimo").slideToggle(3000);
   });
-  $("#product").click(function(){
-    $("#product").slideToggle(3000);
-    $("#product-image").slideToggle(3000);
+  $("#mukimo").click(function(){
+    $("#mukimo").slideToggle(3000);
+    $("#mukimo-image").slideToggle(3000);
   });
 });
