@@ -499,33 +499,8 @@ nav ul li span:nth-child(4) {
 
 /* Lunch */
 
-
-
-}
-#logo{
-  margin-top: 12px;
-  margin-bottom: 24px;
-  width: 70px;
-  height: 70px;;
-}
-#mouse-click{
-  padding-top : 22px;
-  margin-top: 10%;
-  padding-bottom: 30px;
-  /* animation-iteration-count: infinite; */
 }
 
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-55px);
-  }
-  60% {
-    transform: translateY(-45px);
-  }
-}
 
 .about{
   text-align: center;
