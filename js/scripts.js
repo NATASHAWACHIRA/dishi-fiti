@@ -63,3 +63,36 @@ $(document).ready(function(){
     $("#mukimo-image").slideToggle(3000);
   });
 });
+
+$(document).ready(function(){
+  $("#fish-image").click(function(){
+    $("#fish-image").slideToggle(3000);
+    $("#fish").slideToggle(3000);
+  });
+  $("#fish").click(function(){
+    $("#fish").slideToggle(3000);
+    $("#fish-image").slideToggle(3000);
+  });
+});
+
+$(document).ready(function(){
+  $("#spaghetti-image").click(function(){
+    $("#spaghetti-image").slideToggle(3000);
+    $("#spaghetti").slideToggle(3000);
+  });
+  $("#spaghetti").click(function(){
+    $("#spaghetti").slideToggle(3000);
+    $("#spaghetti-image").slideToggle(3000);
+  });
+});
+
+$(document).ready(function(){
+  $("#mukimo-image").click(function(){
+    $("#mukimo-image").slideToggle(3000);
+    $("#mukimo").slideToggle(3000);
+  });
+  $("#mukimo").click(function(){
+    $("#mukimo").slideToggle(3000);
+    $("#mukimo-image").slideToggle(3000);
+  });
+});
