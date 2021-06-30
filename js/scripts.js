@@ -76,12 +76,12 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("#spaghetti-image").click(function(){
-    $("#spaghetti-image").slideToggle(3000);
-    $("#spaghetti").slideToggle(3000);
+  $("#green-image").click(function(){
+    $("#green-image").slideToggle(3000);
+    $("#green").slideToggle(3000);
   });
-  $("#spaghetti").click(function(){
-    $("#spaghetti").slideToggle(3000);
-    $("#spaghetti-image").slideToggle(3000);
+  $("#green").click(function(){
+    $("#green").slideToggle(3000);
+    $("#green-image").slideToggle(3000);
   });
 });
