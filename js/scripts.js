@@ -30,3 +30,36 @@ $(document).ready(function(){
     $("#product-image").slideToggle(3000);
   });
 });
+
+$(document).ready(function(){
+  $("#development-image").click(function(){
+    $("#development-image").slideToggle(3000);
+    $("#development").slideToggle(3000);
+  });
+  $("#development").click(function(){
+    $("#development").slideToggle(3000);
+    $("#development-image").slideToggle(3000);
+  });
+});
+
+$(document).ready(function(){
+  $("#spaghetti-image").click(function(){
+    $("#spaghetti-image").slideToggle(3000);
+    $("#spaghetti").slideToggle(3000);
+  });
+  $("#spaghetti").click(function(){
+    $("#spaghetti").slideToggle(3000);
+    $("#spaghetti-image").slideToggle(3000);
+  });
+});
+
+$(document).ready(function(){
+  $("#product-image").click(function(){
+    $("#product-image").slideToggle(3000);
+    $("#product").slideToggle(3000);
+  });
+  $("#product").click(function(){
+    $("#product").slideToggle(3000);
+    $("#product-image").slideToggle(3000);
+  });
+});
