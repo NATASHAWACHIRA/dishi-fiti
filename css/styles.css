@@ -242,7 +242,7 @@ a {
   color: inherit;
 }
 
-.news-wrapper {
+.cards-wrapper {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -253,7 +253,7 @@ a {
   width: max-content;
 }
 
-.new {
+.card {
   font-family: 'Heebo';
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
@@ -276,11 +276,11 @@ a {
   text-decoration: none;
 }
 
-.new:hover {
+.card:hover {
   transform: rotate(0);
 }
 
-.new h1 {
+.card h1 {
   margin: 0;
   font-size: 1.5em;
   line-height: 1.2em;
