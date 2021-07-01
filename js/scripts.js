@@ -87,12 +87,12 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("#green-image").click(function(){
-    $("#green-image").slideToggle(3000);
-    $("#green").slideToggle(3000);
+  $("#peas-image").click(function(){
+    $("#peas-image").slideToggle(3000);
+    $("#peas").slideToggle(3000);
   });
-  $("#green").click(function(){
-    $("#green").slideToggle(3000);
-    $("#green-image").slideToggle(3000);
+  $("#peas").click(function(){
+    $("#peas").slideToggle(3000);
+    $("#peas-image").slideToggle(3000);
   });
 });
