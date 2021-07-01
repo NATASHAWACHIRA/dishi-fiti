@@ -376,7 +376,7 @@ nav ul li span:nth-child(4) {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .heading-container {
@@ -621,7 +621,11 @@ header .overlay {
 }
 .lead {
   font-size: 50px;
+  color: black;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Fredericka the Great', cursive;
 }
+
 
 
 #men {
@@ -837,16 +841,15 @@ h1 {
 
 
 .footer {
-    padding-top:;
-    padding-bottom: ;
-    background-color: #267933;
-    color: #d8e2dc;
-    display: block;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Manrope', sans-serif;
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 1%;
+  padding-top: ;
+  padding-bottom: ;
+  background-color: #ddbea9;
+  color: #black;
+  display: block;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  font-family: 'Yellowtail', cursive;
 }
 .contact{
   background-color: #d8e2dc;
