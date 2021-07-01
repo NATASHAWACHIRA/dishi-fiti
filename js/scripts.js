@@ -64,16 +64,7 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-  $("#green-image").click(function(){
-    $("#green-image").slideToggle(3000);
-    $("#green").slideToggle(3000);
-  });
-  $("#green").click(function(){
-    $("#green").slideToggle(3000);
-    $("#green-image").slideToggle(3000);
-  });
-});
+
 
 $(document).ready(function(){
   $("#green-image").click(function(){
