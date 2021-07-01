@@ -570,3 +570,27 @@ footer p{
           margin: 20px;
         }
 /* About us */
+.services{
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  color: #d8e2dc;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 18px;
+}
+.services h2{
+  font-size: 60px;
+  font-weight: 900;
+}
+.services p{
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Manrope', sans-serif;
+}
+#servicesoverlay{
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 10%;
+  padding-bottom: 6%;
+}
